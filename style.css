@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border:1px solid rgb(182, 182, 182);
+    box-shadow: 2px 2px 30px 2px grey;
+}
+
+td{
+    width: 10vh;
+    height: 10vh;
+    border: 2px solid grey;
+    border-spacing: 5px;
+}
+
+tr:nth-of-type(even)>td:nth-of-type(odd){
+    background-color:black
+}
+
+tr:nth-of-type(odd)>td:nth-of-type(even){
+    background-color:black
+}
